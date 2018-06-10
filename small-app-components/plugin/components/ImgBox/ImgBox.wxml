@@ -1,0 +1,11 @@
+<view
+  class="root"
+  style="width: {{width}}rpx; height: {{height}}rpx"
+  bindtap="preview"
+>
+  <view wx:if="{{url&&isDelShow}}" class="del-icon">
+    <image mode="scaleToFill" src="{{DEL_ICON}}" catchtap="delImg" />
+  </view>
+
+  <image mode="aspectFill" src="{{url}}" />
+</view>

@@ -1,0 +1,14 @@
+<view class="root" style="height: {{rootHeight}}rpx; width: {{rootWidth}}rpx;">
+  <block wx:for="{{urls}}" wx:key="index" class="img-boxs">
+    <view class="img-box" style="height: {{boxHeight}}rpx; width: {{boxWidth}}rpx">
+      <ImgBox
+        url="{{item}}"
+        isDelShow="{{isDelShow}}"
+        bind:delImg="delImg"
+        bind:preview="preview"
+        width='{{boxWidth}}'
+        height='{{boxHeight}}'
+      />
+    </view>
+  </block>
+</view>

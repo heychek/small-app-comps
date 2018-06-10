@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ImgBox": "plugin://myPlugin/ImgBox"
+  }
+}

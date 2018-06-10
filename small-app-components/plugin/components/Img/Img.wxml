@@ -1,0 +1,7 @@
+<view class="root img">
+  <image
+    mode='scaleToFill'
+    src='{{img}}'
+    binderror='imgErr'
+  />
+</view>

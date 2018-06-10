@@ -1,0 +1,8 @@
+{
+  "publicComponents": {
+    "Img": "components/Img/Img",
+    "ImgList": "components/ImgList/ImgList",
+    "ImgBox": "components/ImgBox/ImgBox"
+  },
+  "main": "index.js"
+}

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/useImg/useImg",
+    "pages/useImgList/useImgList",
+    "pages/useImgBox/useImgBox"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "wx38d7699732269fc2"
+    }
+  }
+}

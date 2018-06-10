@@ -1,0 +1,10 @@
+<view class='root'> 
+  <ImgBox
+    url='{{img}}'
+    isDelShow='{{true}}'
+    width='{{550}}'
+    height='{{250}}'
+    bind:delImg='delImg'
+    bind:preview='preview'
+  />
+</view> 

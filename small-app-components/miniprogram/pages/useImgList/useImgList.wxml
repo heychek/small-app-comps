@@ -1,0 +1,14 @@
+<view class='root'> 
+  <!-- <ImgList
+    urls="{{imgs}}"
+    isDelShow="{{true}}"
+    boxSize="{{213}}"
+    boxSpace="{{16}}"
+    bind:delImg="delImg"
+  /> -->
+  <ImgList
+    urls="{{imgs}}"
+    isDelShow="{{true}}"
+    bind:delImg="delImg"
+  />
+</view> 

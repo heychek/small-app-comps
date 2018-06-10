@@ -1,0 +1,5 @@
+<view class='root'> 
+  <button data-page='useImg' bindtap="turnToPage">Img组件</button>
+  <button data-page='ImgBox' bindtap="turnToPage">ImgBox组件</button>
+  <button data-page='useImgList' bindtap="turnToPage">ImgList组件</button>
+</view> 

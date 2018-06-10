@@ -1,0 +1,8 @@
+.Img {
+  width: 600rpx;
+  height: 400rpx;
+}
+
+.root>button {
+  margin: 10rpx;
+}

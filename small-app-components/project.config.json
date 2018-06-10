@@ -1,0 +1,54 @@
+{
+	"miniprogramRoot": "./miniprogram",
+	"pluginRoot": "./plugin",
+	"compileType": "plugin",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx38d7699732269fc2",
+	"projectname": "small-app-components",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "useImgList",
+					"pathName": "pages/useImgList/useImgList",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useImgBox",
+					"pathName": "pages/useImgBox/useImgBox",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useImg",
+					"pathName": "pages/useImg/useImg",
+					"query": ""
+				}
+			]
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}
