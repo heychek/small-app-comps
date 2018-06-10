@@ -23,11 +23,15 @@ Component({
   },
 
   data: {
-    DEL_ICON
+    DEL_ICON,
+    isLoadComplete: false
   },
 
   methods: {
     preview() {
+      if (!this.data.isLoadComplete) {
+        return
+      }
       const url = this.data.url
       if (!isStrNull(url)) {
         this.triggerEvent('preview', { url })
@@ -35,6 +39,9 @@ Component({
     },
 
     delImg() {
+      if (!this.data.isLoadComplete) {
+        return
+      }
       const that = this
       const url = this.data.url
       if (!isStrNull(url)) {
@@ -42,6 +49,12 @@ Component({
           .then(() => that.triggerEvent('delImg', { url }))
           .catch(() => console.log('cancle'))
       }
+    },
+
+    loadComplete() {
+      this.setData({
+        isLoadComplete: true
+      })
     }
   }
 })

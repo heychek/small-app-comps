@@ -3,9 +3,15 @@
   style="width: {{width}}rpx; height: {{height}}rpx"
   bindtap="preview"
 >
-  <view wx:if="{{url&&isDelShow}}" class="del-icon">
+  <view wx:if="{{url&&isDelShow&&isLoadComplete}}" class="del-icon">
     <image mode="scaleToFill" src="{{DEL_ICON}}" catchtap="delImg" />
   </view>
 
-  <image mode="aspectFill" src="{{url}}" />
+  <image mode="aspectFill" src="{{url}}" bindload="loadComplete" />
+  <view class='load-box' wx:if="{{url&&!isLoadComplete}}">
+    <Loading
+      type="threeBalls"
+      background="#D8D8D8"
+    />
+  </view>
 </view>

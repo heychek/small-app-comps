@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "Img": "../Img/Img"
+    "Img": "../Img/Img",
+    "Loading": "../Loading/Loading"
   }
 }

@@ -1,0 +1,87 @@
+<view class='root'>
+  <view 
+    wx:if='{{type === "fanner1"}}'
+    class='loader loader1'
+    style='width: {{size_}}px; height: {{size_}}px; padding: {{padding}}px;'
+  >
+    <view style='padding: {{padding}}px;'>
+      <view style='padding: {{padding}}px;'>
+        <view style='padding: {{padding}}px;'>
+          <view style='padding: {{padding}}px;'>
+            <view style='padding: {{padding}}px;'>
+              <view style='padding: {{padding}}px;'></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view
+    wx:if='{{type === "fanner2"}}'
+    class='loader loader2'
+    style='width: {{size_}}px; height: {{size_}}px; padding: {{padding}}px;'
+  >
+    <view style='padding: {{padding}}px;'>
+      <view style='padding: {{padding}}px;'>
+        <view style='padding: {{padding}}px;'>
+          <view style='padding: {{padding}}px;'>
+            <view style='padding: {{padding}}px;'>
+              <view style='padding: {{padding}}px;'></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view
+    wx:if='{{type === "fanner3"}}'
+    class='loader loader3'
+    style='width: {{size_}}px; height: {{size_}}px; padding: {{padding}}px;'
+  >
+    <view style='padding: {{padding}}px;'>
+      <view style='padding: {{padding}}px;'>
+        <view style='padding: {{padding}}px;'>
+          <view style='padding: {{padding}}px;'>
+            <view style='padding: {{padding}}px;'>
+              <view style='padding: {{padding}}px;'></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view
+    wx:if='{{type === "fanner4"}}'
+    class='loader loader4'
+    style='width: {{size_}}px; height: {{size_}}px; padding: {{padding4}}px;'
+  >
+    <view style='padding: {{padding4}}px;'>
+      <view style='padding: {{padding4}}px;'>
+        <view style='padding: {{padding4}}px;'>
+          <view style='padding: {{padding4}}px;'>
+            <view style='padding: {{padding4}}px;'>
+              <view style='padding: {{padding4}}px;'>
+                <view style='padding: {{padding4}}px;'>
+                  <view style='padding: {{padding4}}px;'>
+                    <view style='padding: {{padding4}}px;'>
+                      <view></view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view
+    wx:if='{{type === "threeBalls"}}'
+    class='load'
+    style='background: {{threeBallsColor}}'
+  />
+</view>

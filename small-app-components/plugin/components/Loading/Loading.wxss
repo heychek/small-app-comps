@@ -1,0 +1,183 @@
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    border-top-color: rgba(0, 0, 255, 0.5);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    border-top-color: rgba(0, 0, 255, 0.5);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+view {
+  box-sizing: border-box;
+}
+
+.loader {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.loader, .loader view {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  -webkit-animation: rotate linear 3.5s infinite;
+          animation: rotate linear 3.5s infinite;
+}
+
+.loader view {
+  height: 100%;
+}
+
+/* loader 1 */
+.loader1, .loader1 view {
+  border-top-color: rgba(0, 0, 0, 0.5);
+  border-bottom-color: rgba(0, 0, 255, 0.5);
+}
+
+/*loader 2  */
+.loader2, .loader2 view {
+  border-top-color: rgba(0, 0, 255, 0.5);
+  border-left-color: rgba(0, 0, 0, 0.5);
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+/*loader 3  */
+.loader3, .loader3 view {
+  border-top-color: rgba(0, 0, 0, 0.5);
+  border-left-color: rgba(0, 0, 255, 0.5);
+  -webkit-animation-timing-function: cubic-bezier(0.55, 0.38, 0.21, 0.88);
+          animation-timing-function: cubic-bezier(0.55, 0.38, 0.21, 0.88);
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+/* loader 4 */
+ .loader4, .loader4 view {
+  padding: 1px;
+  -webkit-animation: rotate2 4s infinite linear;
+          animation: rotate2 4s infinite linear;
+} 
+
+view:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.loader, .loader view {
+  will-change: transform;
+} 
+/* threeBall */
+.root {
+  position: relative;
+}
+.load {
+  --three-balls-size: 6px;
+  height: 6px;
+  width: 6px; 
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  left: -3px; 
+  top: -3px;
+  animation: spin2 2s ease infinite; 
+}
+.load:before, .load:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  background: inherit;
+  border-radius: inherit;
+  animation: spin1 2s ease infinite; 
+}
+.load:before {
+   left: -7px;
+}
+.load:after {
+   left: 7px;
+} 
+
+@keyframes spin1 {
+  0% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: -12px;
+    transform: rotate(-180deg);
+  }
+  100% {
+    top: 0;
+    transform: rotate(-360deg);
+  }
+} 
+
+@keyframes spin2 {
+  0% {
+    top: -3px;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: -15px;
+    transform: rotate(-180deg);
+  }
+  100% {
+    top: -3px;
+    transform: rotate(-360deg);
+  }
+} 

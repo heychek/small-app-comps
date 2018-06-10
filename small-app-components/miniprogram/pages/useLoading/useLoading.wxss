@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.threeBalls {
+  position: absolute;
+  margin: 300rpx auto 0;
+}

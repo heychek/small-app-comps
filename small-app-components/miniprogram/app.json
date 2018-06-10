@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/useImg/useImg",
     "pages/useImgList/useImgList",
-    "pages/useImgBox/useImgBox"
+    "pages/useImgBox/useImgBox",
+    "pages/useLoading/useLoading"
   ],
   "plugins": {
     "myPlugin": {

@@ -1,0 +1,28 @@
+<view class='root'> 
+  <Loading
+    size='{{50}}'
+    type="fanner1"
+  />
+
+  <Loading
+    size='{{50}}'
+    type="fanner2"
+  />
+
+  <Loading
+    size='{{50}}'
+    type="fanner3"
+  />
+
+  <Loading
+    size='{{50}}'
+    type="fanner4"
+  />
+
+  <view class='threeBalls'>
+    <Loading
+      type="threeBalls"
+      background="#D8D8D8"
+    />
+  </view>
+</view> 

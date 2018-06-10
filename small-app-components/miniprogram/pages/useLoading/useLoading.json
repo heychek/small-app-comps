@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "Loading": "plugin://myPlugin/Loading"
+  }
+}
