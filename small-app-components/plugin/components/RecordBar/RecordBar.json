@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "WifiIcon": "../WifiIcon/WifiIcon",
+    "Img": "../Img/Img"
+  }
+}

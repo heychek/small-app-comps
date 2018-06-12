@@ -1,0 +1,11 @@
+<view class='root'>
+  <block wx:for='{{options}}' wx:key='index'>
+    <view
+      class='mask mask-{{item.position}}'
+      style='{{item.position==="top"||item.position==="bottom"?"height:"+item.size+"rpx":"width:"+item.size+"rpx"}};' 
+    >
+      <slot name='{{item.position}}'></slot>
+    </view>
+  </block>
+  <slot name='content'></slot>
+</view>

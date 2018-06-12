@@ -4,7 +4,16 @@
     "pages/useImg/useImg",
     "pages/useImgList/useImgList",
     "pages/useImgBox/useImgBox",
-    "pages/useLoading/useLoading"
+    "pages/useLoading/useLoading",
+    "pages/useWifiIcon/useWifiIcon",
+    "pages/useTapping/useTapping",
+    "pages/useRecordBar/useRecordBar",
+    "pages/testRecordAndTapping/testRecordAndTapping",
+    "pages/useTabs/useTabs",
+    "pages/useInfoPop/useInfoPop",
+    "pages/useAniPop/useAniPop",
+    "pages/useOpacityMask/useOpacityMask",
+    "pages/testTabsOpacityMask/testTabsOpacityMask"
   ],
   "plugins": {
     "myPlugin": {

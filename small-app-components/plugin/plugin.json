@@ -3,7 +3,14 @@
     "Img": "components/Img/Img",
     "ImgList": "components/ImgList/ImgList",
     "ImgBox": "components/ImgBox/ImgBox",
-    "Loading": "components/Loading/Loading"
+    "Loading": "components/Loading/Loading",
+    "WifiIcon": "components/WifiIcon/WifiIcon",
+    "Tapping": "components/Tapping/Tapping",
+    "RecordBar": "components/RecordBar/RecordBar",
+    "Tabs": "components/Tabs/Tabs",
+    "AniPop": "components/AniPop/AniPop",
+    "InfoPop": "components/InfoPop/InfoPop",
+    "OpacityMask": "components/OpacityMask/OpacityMask"
   },
   "main": "index.js"
 }

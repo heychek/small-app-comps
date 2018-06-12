@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tabs": "plugin://myPlugin/Tabs",
+    "OpacityMask": "plugin://myPlugin/OpacityMask"
+  }
+}

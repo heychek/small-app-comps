@@ -1,0 +1,9 @@
+<view class="Taping-root">
+  <view class="Taping-record-icon">
+    <image 
+      mode="scaleToFill" 
+      src="{{currRecordStatus === 'ON_START'?imgs.issue_record_pause_icon_n:imgs.issue_record_icon_n}}"
+    />
+  </view>
+  <view class="Taping-circle" wx:if="{{currRecordStatus === 'ON_START'}}" />
+</view>

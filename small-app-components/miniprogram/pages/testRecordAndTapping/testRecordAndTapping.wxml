@@ -1,0 +1,11 @@
+<view class='root'>
+  <RecordBar
+    recordPath='{{filePath}}'
+    recordTime='{{recordTime}}'
+    isDelShow='{{true}}'
+  />
+
+  <view class="tapping" bindtap="tappingHandle">
+    <Tapping isStart="{{isStart}}" bind:getRecordTempFile="getRecordTempFile" /> 
+  </view>
+</view>

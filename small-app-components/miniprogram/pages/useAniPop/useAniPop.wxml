@@ -1,0 +1,15 @@
+<view class='root'>
+  <AniPop
+    popHeight='400rpx'
+    popWidth='300rpx'
+    isPopShow='{{isPopShow}}'
+    bind:hidePop='hidePop'
+    canCancleInBlank="{{true}}"
+  >
+    <view style="width: 300rpx; height: 400rpx; background-color: #fff;">
+      gogogo
+    </view>
+  </AniPop>
+
+  <button bindtap='showPop'>显示弹窗</button>
+</view>

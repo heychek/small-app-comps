@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "RecordBar": "plugin://myPlugin/RecordBar",
+    "Tapping": "plugin://myPlugin/Tapping"
+  }
+}

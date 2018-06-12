@@ -1,0 +1,48 @@
+@keyframes circleAni {
+  0% {
+    width: 105rpx;
+    height: 105rpx;
+    opacity: 1;
+    background-color: #86f1df;
+  }
+  100% {
+    width: 250rpx;
+    height: 250rpx;
+    opacity: 0;
+    background-color: #fff;
+  }
+}
+
+.Taping-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  width: 250rpx;
+  height: 250rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.Taping-record-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Taping-record-icon > image {
+  width: 100%;
+  height: 100%;
+}
+.Taping-circle {
+  position: absolute;
+  z-index: -100;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  animation: circleAni 1.5s infinite linear;
+  -webkit-animation: circleAni 1.5s infinite linear;
+}

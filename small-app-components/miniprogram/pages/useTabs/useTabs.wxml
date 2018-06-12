@@ -1,0 +1,9 @@
+<view class='root' bindtap='tappingHandle'>
+   <Tabs
+    tabs='{{tabs}}'
+    width='{{600}}'
+    height='{{90}}'
+    activeIdx='{{activeIdx}}'
+    bind:changeTab='changeTab'
+   /> 
+</view>

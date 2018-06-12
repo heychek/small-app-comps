@@ -1,0 +1,16 @@
+<view
+  class="container {{isPopShow?'show':'hide'}}"
+  bindtap='hidePopBound'
+  bindtouchmove='hidePopBound'
+  animation="{{bgAnimation}}"
+>
+   <view
+    class="pop"
+    style="height: {{popHeight}}; width: {{popWidth}}; left: calc((100% - {{popWidth}})/2); top: calc((100% - {{popHeight}})/2)"
+    catchtap='catchForNotHide'
+    catchtouchmove='catchForNotHide'
+    animation="{{popAnimation}}"
+  >
+    <slot></slot>
+   </view> 
+</view>

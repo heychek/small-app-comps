@@ -1,0 +1,36 @@
+<view 
+  class="root"
+  style="width: {{border}}px; height: {{border}}px; border: {{border}}px solid {{color}};"
+>
+  <view
+    class="circle1-box box"
+    style="width: {{sizeone+border}}px; height: {{sizeone+border}}px;"
+  >
+    <view
+      wx:if="{{isAniShow}}"
+      class="circle1 circle" 
+      style="width: {{sizeone}}px; height: {{sizeone}}px; left: {{(border-sizeone)/2}}px; bottom: {{(border-sizeone)/2}}px; border: {{border}}px solid {{color}};"
+    />
+    <view
+      wx:else
+      class="circle1-static circle"
+      style="width: {{sizeone}}px; height: {{sizeone}}px; left: {{(border-sizeone)/2}}px; bottom: {{(border-sizeone)/2}}px; border: {{border}}px solid {{color}};"
+    />
+  </view>
+
+  <view
+    class="circle2-box box"
+    style="width: {{sizetwo+border}}px; height: {{sizetwo+border}}px;"
+  >
+    <view
+      wx:if="{{isAniShow}}"
+      class="circle2 circle"
+      style="width: {{sizetwo}}px; height: {{sizetwo}}px; left: {{(border-sizetwo)/2}}px; bottom: {{(border-sizetwo)/2}}px; border: {{border}}px solid {{color}};"
+    />
+    <view
+      wx:else
+      class="circle2-static circle"
+      style="width: {{sizetwo}}px; height: {{sizetwo}}px; left: {{(border-sizetwo)/2}}px; bottom: {{(border-sizetwo)/2}}px; border: {{border}}px solid {{color}};"
+    />
+  </view>
+</view>

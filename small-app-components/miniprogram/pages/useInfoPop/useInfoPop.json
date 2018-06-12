@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "InfoPop": "plugin://myPlugin/InfoPop"
+  }
+}

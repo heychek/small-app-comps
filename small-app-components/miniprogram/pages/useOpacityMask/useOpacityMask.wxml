@@ -1,0 +1,9 @@
+<view class='root'>
+  <OpacityMask
+    options='{{options}}'
+  >
+    <view slot='content' style='width: 600rpx; height: 500rpx;'>
+      哈哈哈😝
+    </view>
+  </OpacityMask>
+</view>

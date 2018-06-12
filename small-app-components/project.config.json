@@ -3,7 +3,7 @@
 	"pluginRoot": "./plugin",
 	"compileType": "plugin",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -21,7 +21,7 @@
 			"list": []
 		},
 		"plugin": {
-			"current": -1,
+			"current": 13,
 			"list": [
 				{
 					"id": -1,
@@ -52,6 +52,59 @@
 					"name": "useLoading",
 					"pathName": "pages/useLoading/useLoading",
 					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "useWifiIcon",
+					"pathName": "pages/useWifiIcon/useWifiIcon",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useTapping",
+					"pathName": "pages/useTapping/useTapping",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useRecordBar",
+					"pathName": "pages/useRecordBar/useRecordBar",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "testRecordAndTapping",
+					"pathName": "pages/testRecordAndTapping/testRecordAndTapping",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useTabs",
+					"pathName": "pages/useTabs/useTabs",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useInfoPop",
+					"pathName": "pages/useInfoPop/useInfoPop",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useAniPop",
+					"pathName": "pages/useAniPop/useAniPop",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useOpacityMask",
+					"pathName": "pages/useOpacityMask/useOpacityMask",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "testTabsOpacityMask",
+					"pathName": "pages/testTabsOpacityMask/testTabsOpacityMask"
 				}
 			]
 		},

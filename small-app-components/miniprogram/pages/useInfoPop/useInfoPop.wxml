@@ -1,0 +1,14 @@
+<view class='root'>
+  <InfoPop
+    wx:if='{{isPopShow}}'
+    popWidth='300rpx'
+    popHeight='400rpx'
+    bind:hidePop='hidePop'
+  >
+    <view style="width: 300rpx; height: 400rpx; background-color: #fff;">
+      gogogo
+    </view>
+  </InfoPop>
+
+  <button bindtap='showPop'>显示弹窗</button>
+</view>

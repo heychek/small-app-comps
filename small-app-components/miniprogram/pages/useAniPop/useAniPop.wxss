@@ -1,0 +1,3 @@
+.root button {
+  margin: 150rpx 30rpx;
+}

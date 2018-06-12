@@ -1,0 +1,48 @@
+.root {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 405rpx;
+  height: 73rpx;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  width: 363rpx;
+  height: 73rpx;
+  background-color: #f4f4f5;
+  position: relative;
+  z-index: 1;
+}
+
+.player.onTouch {
+  background-color: #D8D8D8;
+}
+
+.playerIcon {
+  display: flex;
+  width: 47rpx;
+  height: 47rpx;
+  margin-left: 23rpx;
+}
+
+.right-part {
+  position: absolute;
+  right: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.second {
+  font-size: 30rpx;
+  margin-left: 55rpx;
+} 
+
+.cancle-btn {
+  color: red;
+  font-size: 38rpx;
+}

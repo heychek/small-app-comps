@@ -1,0 +1,26 @@
+<view class="root">
+  <view
+    class="player {{isOnTouch?'onTouch':''}}"
+    bindtouchstart="startTouch"
+    bindtouchend="endTouch"
+    bindtap="playerHandle"
+  >
+    <Img src="{{isOnPlay?imgs.pause:imgs.play}}" img="playerIcon" />
+
+    <view class="right-part">
+      <WifiIcon
+        isAniShow="{{isOnPlay}}"
+        sizeone="{{15}}"
+        sizetwo="{{27}}"
+        border="{{3}}"
+        color="#b3bec8"
+      />
+      <view class="second"> 
+        {{localRecordTime}}"
+      </view> 
+    </view>
+  </view>
+  <view class="cancle-btn" bindtap="del" wx:if="{{isDelShow}}">
+    ×
+  </view>
+</view>

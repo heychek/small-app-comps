@@ -1,0 +1,11 @@
+page {
+  background-color: #E8E8E8;
+}
+
+.root {
+  height: 800rpx; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

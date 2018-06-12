@@ -1,0 +1,9 @@
+<view class="container" wx:if="{{isPopShow}}" bindtap='hidePop'>
+   <view
+    class="pop"
+    style="height: {{popHeight}}; width: {{popWidth}}"
+    catchtap='catchForNotHide'
+  >
+    <slot></slot>
+   </view> 
+</view>

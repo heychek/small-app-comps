@@ -1,6 +1,13 @@
 <view class='root'> 
+  <button data-page='useInfoPop' bindtap="turnToPage">InfoPop组件</button>
+  <button data-page='useAniPop' bindtap="turnToPage">AniPop组件</button>
   <button data-page='useImg' bindtap="turnToPage">Img组件</button>
   <button data-page='useImgBox' bindtap="turnToPage">ImgBox组件</button>
   <button data-page='useImgList' bindtap="turnToPage">ImgList组件</button>
   <button data-page='useLoading' bindtap="turnToPage">Loading组件</button>
+  <button data-page='useWifiIcon' bindtap="turnToPage">WifiIcon组件</button>
+  <button data-page='useTapping' bindtap="turnToPage">Tapping组件</button>
+  <button data-page='testRecordAndTapping' bindtap="turnToPage">RecordBar和Tapping使用</button>
+  <button data-page='useTabs' bindtap="turnToPage">Tabs组件</button>
+  <button data-page='useOpacityMask' bindtap="turnToPage">OpacityMask组件</button>
 </view> 

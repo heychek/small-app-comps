@@ -1,0 +1,9 @@
+<view class="root" bindtap='changeState'>
+  <WifiIcon
+    isAniShow="{{isAniShow}}"
+    sizeone="{{15}}"
+    sizetwo="{{27}}"
+    border="{{3}}"
+    color="#b3bec8"
+  />
+</view>

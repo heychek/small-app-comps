@@ -1,0 +1,22 @@
+<view class='root'>
+  <OpacityMask options='{{options}}'>
+    <Tabs
+      slot='content'
+      tabs='{{tabs}}'
+      width='{{550}}'
+      height='{{90}}'
+      activeIdx='{{activeIdx}}'
+      bind:changeTab='changeTab'
+    />
+  </OpacityMask>
+
+  <view>
+    <swiper current='{{activeIdx}}' bindchange='changeTab'>
+      <block wx:for='{{tabs}}' wx:key='{{index}}'>
+        <swiper-item>
+          {{item.tabName}}
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

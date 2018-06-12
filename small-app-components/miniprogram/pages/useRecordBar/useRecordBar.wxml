@@ -1,0 +1,7 @@
+<view class='root'>
+  <RecordBar
+    recordPath='{{filePath}}'
+    recordTime='{{30}}'
+    isDelShow='{{true}}'
+  />
+</view>

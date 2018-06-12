@@ -1,0 +1,12 @@
+<view class='root' style='width: {{width_}}rpx; height: {{height_}}rpx; {{needCenter?"justify-content: center":""}}'>
+  <block wx:for='{{tabs}}' wx:key='index'>
+    <view
+      data-idx='{{item.index}}'
+      class='tab-item {{activeIdx===item.index?"active":""}}'
+      bindtap='chooseTab'
+    >
+      {{item.tabName}}
+    </view>
+  </block>
+  <view class='tab-item'></view>
+</view>
